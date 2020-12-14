@@ -1,0 +1,21 @@
+
+article {
+    padding: 15px; 
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.fa-chevron-circle-right {
+    float: right;
+}
+
+.fa-user-check {
+    float: right;
+    font-size: 0.5em;
+    margin: 0.5em;
+}
+
+.fa-cog {
+    margin-left: 1em;
+}
