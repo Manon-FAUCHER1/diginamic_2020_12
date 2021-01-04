@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modal.css">
+    <title>Fenetre Modal</title>
+</head>
+<body>
+    <button id="open_modal">Ouvrir la fenêtre modale</button>
+    <div id="modal_container">
+        <div id="modal_content">
+            <button type="button" id="X_btn">X</button>
+            <h1>Coucou je suis une fenêtre modale</h1>
+            <form action="">
+                <p>
+                    <label for="text">Text area</label><br />
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" resize="true"></textarea>
+                </p>
+                <p>
+                    <label for="password">password</label><br />
+                    <input type="password" id="password">
+                </p>
+                <p>
+                    <button id="close_btn">Close</button>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="modal.js"></script>
+</html>

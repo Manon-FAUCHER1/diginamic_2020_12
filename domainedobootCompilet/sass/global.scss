@@ -1,0 +1,36 @@
+/* boutons */
+button {
+    &.btn-ddo {
+        border: 1px solid map-get($theme-colors, "primary") !important;
+        background-color: white;
+        color: map-get($theme-colors, "primary");
+        font-weight: 700;
+        text-transform: uppercase;
+        &:hover {
+            color: white;
+            background-color: map-get($theme-colors, "primary"); 
+        }
+    }
+}
+
+a {
+    &.a-menu {
+        padding-top: 25px;
+        padding-bottom: 5px;
+    }
+
+    &.a-menu-2 {
+        border: 0 solid map-get($theme-colors, "primary" ) !important;
+        background-color: white;
+        color: map-get($theme-colors, "secondary");
+        font-weight: 700;
+        font-size: 1.125em !important;
+        text-transform: uppercase;
+        &:hover {
+            color: map-get($theme-colors, "primary");
+            background-color: white; 
+        }
+    }
+}
+
+

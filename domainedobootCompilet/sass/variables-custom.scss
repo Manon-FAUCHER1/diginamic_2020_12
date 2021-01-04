@@ -1,4 +1,10 @@
+/* Rédéfinition des couleur via à tableau associatif */
 $theme-colors: (
-    "warning": #FF5733
+  "primary":  #E74C2B,
+  "secondary":#000000,
+  "warning": #F9B619,
+  "danger": #CF0A38,
+  "success":#7CB8C4
 );
-    
+
+/* couleurs supplémentaires */
